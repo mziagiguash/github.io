@@ -1,0 +1,107 @@
+@import 'normalize.css';
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+    outline: none;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  a,
+  button,
+  figure,
+  input {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 400px; /* Максимальная ширина формы, чтобы она была как кредитная карта */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Округление углов формы */
+    margin: auto; /* Чтобы форма была по центру */
+  }
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+    
+  
+  .visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    clip: rect(0, 0, 0, 0);
+    clip-path: inset(100%);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+.form-control {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  .invalid-feedback {
+    color: red;
+    font-size: 14px;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
